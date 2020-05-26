@@ -46,7 +46,6 @@ class App extends React.Component {
         });
       });
   }
-
   submit = () => {
     if (this.state.message.trim() !== "") {
       var tempState = this.state.chat;
