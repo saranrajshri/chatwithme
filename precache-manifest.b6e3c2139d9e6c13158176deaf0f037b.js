@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "829f29397598a2f6241513020c275c54",
+    "revision": "23395e1108bbf6bdec86d7ec503c5418",
     "url": "/chatwithme/index.html"
   },
   {
-    "revision": "e8a61ac6ab988b54c122",
+    "revision": "1f194a04b9e217245020",
     "url": "/chatwithme/static/css/main.a77dcc34.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chatwithme/static/js/2.c4829a39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e8a61ac6ab988b54c122",
-    "url": "/chatwithme/static/js/main.74ad6141.chunk.js"
+    "revision": "1f194a04b9e217245020",
+    "url": "/chatwithme/static/js/main.4f7f4264.chunk.js"
   },
   {
     "revision": "8defd1fe14b5326f518a",
