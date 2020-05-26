@@ -82,13 +82,15 @@ class App extends React.Component {
   };
 
   handleChange = (e) => {
-    if (e.keyCode === 13) {
-      this.submit();
-    }
-
     this.setState({
       [e.target.name]: e.target.value,
     });
+  };
+
+  keyPress = (e) => {
+    if (e.keyCode == 13) {
+      this.submit();
+    }
   };
   render() {
     return (
@@ -160,6 +162,7 @@ class App extends React.Component {
                       placeholder="Enter message here..."
                       className="input-text"
                       onChange={this.handleChange}
+                      onKeyDown={this.keyPress}
                       name="message"
                       icon={
                         <Icon
