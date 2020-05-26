@@ -39,7 +39,7 @@ class App extends React.Component {
 
   componentDidMount() {
     axios
-      .post("https://chatwithme-backend.herokuapp.com/createSession")
+      .post("https://chatwithsaran.herokuapp.com/createSession")
       .then((response) => {
         this.setState({
           sessionID: response.data.session_id,
@@ -61,7 +61,7 @@ class App extends React.Component {
       });
 
       axios
-        .post("https://chatwithme-backend.herokuapp.com/getResponse", {
+        .post("https://chatwithsaran.herokuapp.com/getResponse", {
           message: this.state.message,
           sessionID: this.state.sessionID,
         })
